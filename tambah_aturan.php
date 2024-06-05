@@ -91,7 +91,7 @@ if (isset($_POST['simpan'])) {
                                     while ($row = $result->fetch_assoc()) {
                                     ?>
                                         <tr>
-                                            <td><input type="checkbox" class="check-item" name="<?php echo 'id_gejala[]' ?>" value="<?php echo $row['id_gejala']; ?>"></td>
+                                            <td align="center"><input type="checkbox" class="check-item" name="<?php echo 'id_gejala[]' ?>" value="<?php echo $row['id_gejala']; ?>"></td>
                                             <td><?php echo $no++; ?></td>
                                             <td><?php echo $row['nama_gejala']; ?></td>
                                         </tr>
