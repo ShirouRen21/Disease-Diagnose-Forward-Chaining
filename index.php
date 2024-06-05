@@ -32,10 +32,10 @@ include "config.php";
           <a class="nav-link active" href="?page=penyakit">Penyakit</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="?page=aturan">basis aturan</a>
+          <a class="nav-link active" href="?page=aturan">Basis Aturan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">konsultasi</a>
+          <a class="nav-link active" href="?page=konsultasi">Konsultasi</a>
         </li>
       </ul>
     </div>
@@ -82,7 +82,14 @@ include "config.php";
       } else {
         include "hapus_aturan.php";
       }
-    } else {
+    } elseif ($page == "konsultasi") {
+      if ($action == "") {
+        include "konsultasi.php";
+      } 
+      else {
+        include "hasil_konsultasi.php";
+      } 
+    }else {
       include "NAMA_HALAMAN";
     }
     ?>
