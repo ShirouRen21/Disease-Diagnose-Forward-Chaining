@@ -9,5 +9,6 @@ Forward chaining is a reasoning method in rule-based systems used to reach a con
 3.  Check Rules: The system examines each rule to see if the condition (if) of the rule is satisfied by the existing facts. If the condition of a rule is met, the conclusion       (then) of that rule is considered true.
 4.  Add New Facts: The conclusions derived from satisfied rules are added to the set of known facts.
 5.  Repeat the Process: This process is repeated continuously, where the system keeps checking rules and adding new facts until no more rules can be applied or the final goal     is reached.
+
 we took the rules and symptoms from the journal on:
 https://jurnal.amikom.ac.id/index.php/infos/article/download/239/302/4093
